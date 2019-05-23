@@ -35,8 +35,8 @@ self.addEventListener('fetch', function(event) { //fungsi fetch
           return caches.match('pages/404.html');
         }
         return caches.open(staticCacheName).then(function(cache) {
-          if (!(event.request.url.indexOf('https') === 0)) {
-            cache.put(event.request.url, response.clone());
+          if (!(event.request.url.indexOf('https') === 0)) { //Uncaught (in promise) TypeError: Request scheme 'chrome-extension' is unsupported at sw.js
+            cache.put(event.request.url, response.clone()); //blm dapat solusinya
           }
           return response;
         });
