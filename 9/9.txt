@@ -1,0 +1,34 @@
+latihan & tugas pertemuan 9:
+topik: codelab cache api (menampilkan halaman photo blog dgn sw)
+dan dilanjutkan untuk fetch dari json data (tugas)
+
+petunjuk: gunakan 2 codelab
+pert 8 fetch api --> retrieve json data (API endpoint/web service)
+pert 9 cache api --> service worker (-fetch dari json)
+
+contoh: 
+1. aplikasi PWA news reader (-belajar library baru)
+2. dicoding pwa news reader (github)
+   https://github.com/dicodingacademy/
+      a74-mpwa-labs/tree/03-news-reader-cache
+3. google developer training
+   https://github.com/google-developer-training
+      /pwa-training-labs
+4. fake Rest api/ endpoint api/web service
+   https://jsonplaceholder.typicode.com/posts
+5. web service berita
+   https://readerapi.codepolitan.com/articles
+   https://newsapi.org/
+
+hasil latihan & tugas:
+1. hasil yang ada di push ke github dengan repository baru
+   --> changelog (control version system)
+2. kirim via email: piusanggoro@akakom.ac.id
+   sebelum jam 16.45 tanggal 23 mei 2019
+   subject: tugas pemrograman web mobile json data 1
+   body: NIM, NAMA
+         progres pengerjaan (fetch - json - cache - parsing)
+		 --> deskripsi singkat
+		 URL repository github
+
+   
